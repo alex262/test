@@ -1,0 +1,8 @@
+device=c:\windows\himem.sys
+device=c:\windows\emm386.sys 30000
+DOS=HIGH,UMB
+devicehigh=C:\WINDOWS\COMMAND\display.sys con=(ega,,1)
+rem Загружаем универсальный драйвер USB-контроллера
+devicehigh=USBASPI.SYS /s /w
+devicehigh=DI1000DD.SYS
+Country=007,866,C:\WINDOWS\COMMAND\country.sys
